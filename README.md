@@ -1,3 +1,8 @@
+# Coleccion de APIs en PowerShell
+Coleccion de diferentes REST APIs implementadas en Microsoft PowerShell
+
+El proposito es privado y educacional, para enseñar como implementar una gran variedad de servicios en PowerShell
+
 ## Indice
 ### Inicio y Licencias
 - [Coleccion de APIs en PowerShell](#coleccion-de-apis-en-powershell)
@@ -10,10 +15,7 @@
 
 
 ---
-# Coleccion de APIs en PowerShell
-Coleccion de diferentes REST APIs implementadas en Microsoft PowerShell
 
-El proposito es privado y educacional, para enseñar como implementar una gran variedad de servicios en PowerShell
 
 # Usar codigo de este repositorio
 El codigo de este repositorio y algunas variantes esta sujeto a ````(CC BY-NC 4.0)````, Esta licencia solo aplica a la implementacion realizada en PowerShell, no a la API en sí
