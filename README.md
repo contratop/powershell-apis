@@ -6,6 +6,7 @@
   * [Linea que deberas poner en tu codigo](#linea-que-deberas-poner-en-tu-codigo)
 ### Colección APIs
 - [URL Shortener](#url-shortener)
+- [Minecraft Server Check](#Minecraft-Server-Check)
 
 
 ---
