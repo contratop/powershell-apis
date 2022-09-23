@@ -6,6 +6,7 @@ El proposito es privado y educacional, para enseñar como implementar una gran v
 ## Indice
 ### Inicio y Licencias
 - [Coleccion de APIs en PowerShell](#coleccion-de-apis-en-powershell)
+  * [Indice](#Indice)
 - [Usar codigo de este repositorio](#usar-codigo-de-este-repositorio)
   * [Explicación de esta licencia](#explicacion-de-esta-licencia)
   * [Linea que deberas poner en tu codigo](#linea-que-deberas-poner-en-tu-codigo)
