@@ -4,11 +4,18 @@ $url = "https://api.anonfiles.com/upload"
 
 if(-not(get-command curl.exe)){
     Write-Host "curl.exe not found. Please install curl.exe and try again."
+    pause
     exit
 }
 
 $FileBrowser = New-Object System.Windows.Forms.OpenFileDialog -Property @{ InitialDirectory = [Environment]::GetFolderPath('Desktop') ; Title = 'Selecciona un archivo a subir' }
-$null = $FileBrowser.ShowDialog()
+if(-not($?)){
+    Write-Warning "GUI load error"
+    $FileBrowser.FileName = Read-Host "Enter the file path manually"
+}
+else{
+    $null = $FileBrowser.ShowDialog()
+}
 $filetarget = Get-Item -path $FileBrowser.FileName
 $filepath = $FileBrowser.FileName
 
