@@ -12,7 +12,10 @@ $null = $FileBrowser.ShowDialog()
 $filetarget = Get-Item -path $FileBrowser.FileName
 $filepath = $FileBrowser.FileName
 
-
+if(-not($filetarget)){
+    Write-Host "No file selected. Exiting."
+    exit
+}
 
 
 write-host "-----------" -ForegroundColor Cyan
