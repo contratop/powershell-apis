@@ -53,7 +53,6 @@ if($result.status){
     write-host "Informacion extra:"
     write-host "Nombre: $($result.data.file.metadata.name)" -ForegroundColor Cyan
     write-host "Peso: $($result.data.file.metadata.size.readable)" -ForegroundColor Cyan
-    exit
 }
 else{
     write-warning "Error al subir el archivo" 
@@ -62,5 +61,4 @@ else{
     write-host "Error: $($result.error.type)" -ForegroundColor Yellow
     write-host "Mensaje: $($result.error.message)" -ForegroundColor Yellow
     write-host "Codigo de error: $($result.error.code)" -ForegroundColor Yellow
-    exit
 }
