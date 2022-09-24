@@ -1,5 +1,5 @@
 Clear-Host
-
+Add-Type -AssemblyName System.Windows.Forms
 $url = "https://api.anonfiles.com/upload"
 
 if(-not(get-command curl.exe)){
